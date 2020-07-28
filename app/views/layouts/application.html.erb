@@ -12,8 +12,19 @@
   </head>
 
   <body>
-  <!-- headerの内容がこの1行で収まる -->
-    <%= render 'layouts/header' %>
+  <%= render 'layouts/header' %>
+    <header>
+      <nav>
+          <% if user_signed_in? %>
+            <strong><%= link_to current_user.name, static_pages_show_path %></strong>
+          <% end %>
+      </nav>
+    </header>
+
+
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    
   <div class="container">
     <%= yield %>
   </div>
