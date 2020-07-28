@@ -143,6 +143,12 @@ body {
     color: #000;
   }
 
+  .mail-address{
+    font-size: 20px;
+    margin-top: 100px;
+    color: #000;
+  }
+
   .mail-address2{    
     font-size: 20px;
     margin-top: 20px;
@@ -160,5 +166,42 @@ body {
     margin-top: 20px;
     color: #000;
   }
+
+  .login_checkbox{
+    margin-top: 20px;   
+  }
+
+  .user_unregistered{
+    padding: 8px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #34a853;
+  }
+  
+  .user_unregistered:hover{
+    padding: 8px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #5eb976;
+    text-decoration: none;
+  }
+
+  .facebook{
+    padding: 8px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #4267b2;
+  }
+  
+  .facebook:hover{
+    padding: 8px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #77a7ff;
+    text-decoration: none;
+  }
+
+
+  
   
  
