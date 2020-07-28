@@ -52,6 +52,13 @@ body {
     margin-bottom: 30px;
     text-align: center;
   }
+
+  .h1_text{
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: 30px;
+    color: #000;
+  }
   
   h2 {
     font-size: 1.2em;
@@ -93,7 +100,7 @@ body {
     margin-top: 20px;
   }
   
-  .new_user{
+  .new_user_button{
     font-size: 20px;
     color: #fff;
     background-color: #0077bb;
@@ -106,7 +113,7 @@ body {
     transition: all  0.4s ease;
   }
   
-  .new_user:hover{
+  .new_user_button:hover{
     color: white;
     background-color: #f19149;
     text-decoration: none;
@@ -129,3 +136,29 @@ body {
     background-color: #f19149;
     text-decoration: none;
   }
+
+  .name{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #000;
+  }
+
+  .mail-address2{    
+    font-size: 20px;
+    margin-top: 20px;
+    color: #000;
+  }
+
+  .password{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #000;
+  }
+  
+  .password2{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #000;
+  }
+  
+ 
